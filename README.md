@@ -4,7 +4,7 @@ JS algo workbench repo w notes
 
 ## Big-O Notation
 
-#### Constant Time - O(1)
+### Constant Time - O(1)
 
 A single operation, regardless of input size
 
@@ -14,7 +14,7 @@ function printFirstItem(items) {
 }
 ```
 
-#### Linear Time = O(n)
+### Linear Time = O(n)
 
 1 to 1 ratio of input : work
 
@@ -41,7 +41,7 @@ function contains(haystack, needle) {
 }
 ```
 
-#### Quadratic Time = O(n^2)
+### Quadratic Time = O(n^2)
 
 n to (n \* n( ratio of input : work
 
@@ -60,5 +60,31 @@ function printAllNumbersThenAllPairSums(numbers) {
       console.log(firstNumber + secondNumber);
     });
   });
+}
+```
+
+### Space complexity: O(1)
+
+fixed number of variables, regardless of input
+
+```javascript
+function sayHiNTimes(n) {
+  for (let i = 0; i < n; i++) {
+    console.log("hi");
+  }
+}
+```
+
+### Space complexity: O(n)
+
+number of variables / storage depends on the size of input
+
+```javascript
+function arrayOfHiNTimes(n) {
+  const hiArray = [];
+  for (let i = 0; i < n; i++) {
+    hiArray[i] = "hi";
+  }
+  return hiArray;
 }
 ```
