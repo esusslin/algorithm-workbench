@@ -2,7 +2,7 @@
 
 JS algo workbench repo w notes
 
-## Big-O Notation
+# Big-O Notation
 
 ### Constant Time - O(1)
 
@@ -88,3 +88,13 @@ function arrayOfHiNTimes(n) {
   return hiArray;
 }
 ```
+
+# CS Fun
+
+### RAM - Random Access Memory
+
+Processor -> Memory Controller -> RAM shelves
+
+A cache stores recent and proximate bytes in a cache for greater speed:
+
+![alt text](ram.png "Logo Title Text 1")
