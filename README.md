@@ -4,6 +4,8 @@ JS algo workbench repo w notes
 
 # Big-O Notation
 
+![alt text](bigo.png "Logo Title Text 1")
+
 ### Constant Time - O(1)
 
 A single operation, regardless of input size
@@ -142,3 +144,17 @@ The 256 possibilities we get with 1 byte are pretty limiting. So we usually use 
 In big O notation, we say fixed-width integers take up constant space or O(1)O(1) space.
 
 And because they have a constant number of bits, most simple operations on fixed-width integers (addition, subtraction, multiplication, division) take _constant time_ (O(1)O(1) time).
+
+#### Hash Tables
+
+![alt text](hashfunction.png "Logo Title Text 1")
+
+In our hash table, the counts are the values and the words ("lies," etc.) are the keys (analogous to the indices in an array). The process we used to translate a key into an array index is called a _hashing function._ A hashing function is typically a modulus:
+
+429%30=9
+
+Bam. That'll get us from a word (or any string) to an array index.
+
+#### Logarithms
+
+"What power must we raise this base to in order to reach the answer?"
